@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .fboxs{
+            border: 1px dashed #000;
+            
+
+        }
+        .frow{
+            width: 100px;
+            display: inline-block;
+            height: 100px;
+            background-color: red;
+        }
+        .green{
+            width: 100px;
+            display: inline-block;
+            height: 100px;
+            background-color: green;
+        }
+        #pos1 {
+            
+            
+            position: static;
+            
+        }
+        #pos2 {
+            
+            
+            position: relative;
+            top: 100px;
+            left: 120px;
+            
+        }
+        #pos3 {
+            
+            
+            position: absolute;
+            top: 100px;
+            left: 120px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="fboxs">
+            <div class="frow">one</div>
+            <div class="green" id="pos1">two</div>
+            <div class="frow">three</div>
+            <div class="frow">four</div>
+        </div>
+        <div class="fboxs">
+            <div class="frow">one</div>
+            <div class="green" id="pos2">two</div>
+            <div class="frow">three</div>
+            <div class="frow">four</div>
+            <div class="fboxs">
+                <div class="frow">one</div>
+                <div class="green" id="pos3">two</div>
+                <div class="frow">three</div>
+                <div class="frow">four</div>
+            </div>
+        </div>
+        <!-- <div class="fboxs">
+            <div class="frow">one</div>
+            <div class="green" id="pos3">two</div>
+            <div class="frow">three</div>
+            <div class="frow">four</div>
+        </div> -->
+    </div>
+</body>
+</html>
