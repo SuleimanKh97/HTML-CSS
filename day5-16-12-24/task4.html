@@ -6,24 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            padding: 0px;
+        }
         .maincont {
             display: flex;
             column-gap: 15px;
         }
 
-        .firstpara {
+        .para2 {
             display: inline-block;
             border: 1px solid #000;
             width: 200px;
             height: auto;
             border-radius: 5px;
+            flex-grow: 1;
+            position: relative;
+        }
+        .para {
+            display: inline-block;
+            border: 1px solid #000;
+            width: 200px;
+            height: auto;
+            border-radius: 5px;
+            flex-grow: 1;
         }
 
-        .secondpara {
+        /* .secondpara {
             display: inline-block;
             border: 1px solid #000;
             width: 200px;
             border-radius: 5px;
+            flex-grow: 1;
         }
 
         .thirdpara {
@@ -31,7 +45,8 @@
             border: 1px solid #000;
             width: 200px;
             border-radius: 5px;
-        }
+            flex-grow: 1;
+        } */
 
         .j1 {
             width: 100%;
@@ -45,30 +60,36 @@
             
             
         }
-        
+        #div2{
+            position: absolute;
+            bottom: 0;
+            width: 94.5%;
+
+
+        }
         
     </style>
 </head>
 
 <body>
     <div class="maincont">
-        <div class="firstpara">
+        <div class="para">
             <h2>A short heading</h2>
             <img class="j1" src="pic1.jpeg" alt="">
             <p>The idea of reaching the North Pole by means of balloons appears to have been enrentained many years ago.
             </p>
 
         </div>
-        <div class="secondpara">
+        <div class="para2">
             <h2>A short heading</h2>
             <img class="j1" src="pic1.jpeg" alt="">
             <p>The idea of reaching the North 
             </p>
-            <div class="footer">
+            <div class="footer" id="div2">
                 I have a footer
             </div>
         </div>
-        <div class="thirdpara">
+        <div class="para">
             <h2>A long heading for test the case</h2>
             <img class="j1" src="pic1.jpeg" alt="">
             <p>The idea of reaching the North Pole by means of balloons appears to have been enrentained many years ago.
