@@ -1,0 +1,200 @@
+@font-face {
+    font-family: taskday6;
+    src: url(PlaywriteAUTASGuides-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: taskday6;
+}
+
+header {
+    position: relative;
+}
+
+.headtop {
+    background-image: url(pic1.jpeg);
+    width: 1400px;
+    height: 400px;
+    background-color: bisque;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    position: relative;
+    /* filter: blur(8px); */
+    /* height: 100%; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+
+}
+
+.topheadh2:hover {
+    transform: scale(2);
+    transition: 3s;
+}
+
+.button1 {
+    border: 1px solid #312c2c;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(226, 141, 43);
+    transform: translateX(620px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: larger;
+    color: white;
+}
+
+.button1:hover {
+    background-color: aqua;
+    color: black;
+    transition: 3s;
+}
+
+main {
+    width: 1400px;
+    height: 1000px;
+    background-color: rgb(69, 69, 89);
+    display: flex;
+    flex-direction: column;
+}
+
+.firstmain {
+    flex: 1;
+    width: 1400px;
+    height: 200px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.firstmain:hover {
+    transform: translate(-30px, -30px);
+    transition: 4s ease-out;
+}
+
+.secondmain {
+    width: 1400px;
+    height: 600px;
+    background-color: rgb(48, 49, 51);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+
+}
+
+.secondmain:hover {
+    background: linear-gradient(90deg, rgba(0, 36, 1, 1) 13%, rgba(5, 82, 57, 1) 25%, rgba(121, 95, 9, 1) 42%, rgba(154, 7, 116, 1) 54%, rgba(6, 90, 171, 1) 68%, rgba(76, 5, 190, 1) 82%, rgba(75, 217, 3, 1) 88%, rgba(0, 255, 59, 1) 100%);
+    transition: 4s ease-out;
+}
+
+
+.thirdmain {
+    width: 1400px;
+    height: 200px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+
+}
+.thirdmain:hover{
+    transform: translate(30px, 30px);
+    transition: 4s ease-in;
+}
+
+.footer2 {
+    display: flex;
+}
+
+.firstfooter {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    background-color: rgb(211, 105, 199);
+}
+.firstfooter:hover{
+    transform: scale(2);
+    transition: 4s ease-in-out;
+}
+
+.secondfooter {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    background-color: rgb(113, 61, 107);
+}
+.secondfooter:hover{
+    transform: scale(0.6);
+    transition: 4s ease-in-out;
+}
+
+.containar {
+    display: flex;
+    color: aliceblue;
+    padding-top: 25px;
+    /* padding-left: 2%;
+    padding-right: 2%; */
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.firstcard {
+    width: 450px;
+    height: 560px;
+    background-color: rgb(82, 103, 122);
+
+
+}
+
+.firstcard:hover {
+    transform: rotate(20deg);
+    transition: 5s;
+}
+
+.secondcard {
+    width: 450px;
+    height: 560px;
+    background-color: rgb(109, 135, 159)
+}
+
+.secondcard:hover {
+    transform: skew(10deg,10deg);
+    transition: 5s;
+}
+
+.thirdcard {
+    width: 450px;
+    height: 560px;
+    background-color: rgb(100, 126, 149)
+}
+
+.thirdcard:hover {
+    transform: rotate(-20deg);
+    transition: 5s;
+}
+
+.img1 {
+    width: 450px;
+    height: 40%;
+}
