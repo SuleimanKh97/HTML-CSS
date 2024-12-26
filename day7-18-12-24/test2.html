@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recently Blog</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8fbfb;
+      color: #333;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    h2 {
+      margin: 30px 0 20px;
+      font-size: 2rem;
+      text-align: center;
+      color: #000;
+    }
+
+    .view-all {
+      text-align: right;
+      margin: 10px 20px;
+    }
+
+    .view-all a {
+      color: #000;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .blog-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+    }
+
+    .blog-card {
+      flex: 1 1 calc(33.333% - 20px);
+      background-color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: left;
+      transition: transform 0.3s ease;
+    }
+
+    .blog-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .blog-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .blog-card-content {
+      padding: 15px;
+    }
+
+    .blog-card-content h3 {
+      font-size: 1.1rem;
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .blog-card-content p {
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <!-- Recently Blog Section -->
+  <div class="container">
+    <div class="view-all">
+      <a href="#">View All Posts</a>
+    </div>
+    <h2>Recently Blog</h2>
+    <div class="blog-section">
+      <!-- Blog Card 1 -->
+      <div class="blog-card">
+        <img src="Screenshot 2024-12-19 002544.png" alt="Blog Image 1">
+        <div class="blog-card-content">
+          <h3>First Time Home Owner Ideas</h3>
+          <p><em>by Nana Ama on Nov 18th, 2022</em></p>
+        </div>
+      </div>
+
+      <!-- Blog Card 2 -->
+      <div class="blog-card">
+        <img src="Screenshot 2024-12-19 002544.png" alt="Blog Image 2">
+        <div class="blog-card-content">
+          <h3>First Time Home Owner Ideas</h3>
+          <p><em>by Nana Ama on Nov 18th, 2022</em></p>
+        </div>
+      </div>
+
+      <!-- Blog Card 3 -->
+      <div class="blog-card">
+        <img src="Screenshot 2024-12-19 002544.png" alt="Blog Image 3">
+        <div class="blog-card-content">
+          <h3>First Time Home Owner Ideas</h3>
+          <p><em>by Nana Ama on Nov 18th, 2022</em></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

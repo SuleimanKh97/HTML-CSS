@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Section and Testimonials</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9fbfb;
+            color: #333;
+        }
+
+        /* Product Section */
+        .products {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px auto;
+            padding: 10px;
+            max-width: 1000px;
+            text-align: center;
+        }
+
+        .product-card {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            box-sizing: border-box;
+        }
+
+        .product-card img {
+            width: 100px;
+            height: auto;
+        }
+
+        .product-card h3 {
+            margin: 10px 0 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        .product-card p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .product-card a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            background-color: #f9fbfb;
+            text-align: center;
+            margin: 30px auto;
+            padding: 30px 20px;
+        }
+
+        .testimonials h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .testimonials p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #444;
+        }
+
+        /* Navigation Arrows */
+        .nav-arrows {
+            display: flex;
+            justify-content: space-between;
+            max-width: 200px;
+            margin: 20px auto 0;
+        }
+
+        .nav-arrow {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #ffcd00;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        .nav-arrow.left {
+            background-color: #e5e5e5;
+        }
+    </style>
+</head>
+<body>
+    <!-- Product Section -->
+    <section class="products">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/100" alt="Modern Chair">
+            <h3>Modern Chair</h3>
+            <p>Donec mattis porta eros, aliquet finibus risus in. Donec</p>
+            <a href="#">Read more</a>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/100" alt="Kruzi Aero">
+            <h3>Kruzi Aero</h3>
+            <p>Donec mattis porta eros, aliquet finibus risus in. Donec</p>
+            <a href="#">Read more</a>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/100" alt="Ergonomic Chair">
+            <h3>Ergonomic Chair</h3>
+            <p>Donec mattis porta eros, aliquet finibus risus in. Donec</p>
+            <a href="#">Read more</a>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        <p>“Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma”</p>
+        
+        <!-- Navigation Arrows -->
+        <div class="nav-arrows">
+            <div class="nav-arrow left">&larr;</div>
+            <div class="nav-arrow right">&rarr;</div>
+        </div>
+    </section>
+</body>
+</html>

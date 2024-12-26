@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter & Footer Section</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9fbfb;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Newsletter Section */
+        .newsletter {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: #ffffff;
+        }
+
+        .newsletter h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .newsletter input {
+            padding: 10px;
+            width: 200px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .newsletter button {
+            background-color: #396e68;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .newsletter button:hover {
+            background-color: #2b5550;
+        }
+
+        /* Footer Section */
+        .footer {
+            background-color: #ffffff;
+            padding: 40px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: auto;
+            color: #555;
+        }
+
+        .footer-left, .footer-center, .footer-right {
+            flex: 1;
+            margin: 10px;
+            min-width: 200px;
+        }
+
+        .footer h3 {
+            margin-bottom: 15px;
+            color: #396e68;
+        }
+
+        .footer p, .footer a {
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #f2f2f2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            color: #333;
+            cursor: pointer;
+        }
+
+        /* Bottom Section */
+        .footer-bottom {
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.8rem;
+            color: #777;
+            border-top: 1px solid #ddd;
+            margin-top: 20px;
+        }
+
+        .footer-bottom a {
+            margin: 0 10px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <h2>Subscribe to Newsletter</h2>
+        <form>
+            <input type="text" placeholder="Enter your name" />
+            <input type="email" placeholder="Enter your e-mail" />
+            <button type="submit">></button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <!-- Left Section -->
+        <div class="footer-left">
+            <h3>FIN</h3>
+            <p>
+                Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vitvehre as it was for us to know what was to be done. the this is a long post for the text.
+            </p>
+            <div class="footer-social">
+                <div class="social-icon">F</div>
+                <div class="social-icon">I</div>
+                <div class="social-icon">T</div>
+                <div class="social-icon">L</div>
+            </div>
+        </div>
+
+        <!-- Center Section -->
+        <div class="footer-center">
+            <h3>About us</h3>
+            <p><a href="#">Services</a></p>
+            <p><a href="#">Blog</a></p>
+            <p><a href="#">Contact us</a></p>
+            <p><a href="#">Support</a></p>
+            <p><a href="#">Knowledge base</a></p>
+            <p><a href="#">Live chat</a></p>
+        </div>
+
+        <!-- Right Section -->
+        <div class="footer-right">
+            <h3>Jobs</h3>
+            <p><a href="#">Our team</a></p>
+            <p><a href="#">Leadership</a></p>
+            <p><a href="#">Privacy Policy</a></p>
+            <p><a href="#">Nordic Chair</a></p>
+            <p><a href="#">Kruzo Aero</a></p>
+            <p><a href="#">Ergonomic</a></p>
+        </div>
+    </footer>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <p>
+            <a href="#">Terms & Conditions</a> | 
+            <a href="#">Privacy Policy</a>
+        </p>
+        <p>Copyright 2022 zainali00769@gmail.com. All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>
